@@ -1,0 +1,17 @@
+{
+    "name": "Agent Browser",
+    "id": "agent-browser",
+    "version": "1.0.0",
+    "description": "Installs the agent-browser CLI and Chromium for browser automation",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Version of agent-browser to install (or 'latest')"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/devcontainers/features/node"
+    ]
+}
