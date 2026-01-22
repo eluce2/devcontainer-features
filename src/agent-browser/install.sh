@@ -47,6 +47,6 @@ fi
 
 # Download Chromium
 echo "Installing Chromium via agent-browser..."
-agent-browser install
+agent-browser install --with-deps
 
 echo "agent-browser installation complete!"
